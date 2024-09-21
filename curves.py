@@ -1,7 +1,7 @@
 import json
 import matplotlib.pyplot as plt
 
-history_path = './models/model6/model_history-2.json'
+history_path = './models/model_history-2.json'
 with open(history_path, 'r') as file:
     history_data = json.load(file)
 
