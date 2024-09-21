@@ -4,7 +4,7 @@ import numpy as np
 
 model = tf.keras.models.load_model("./models/digit_classification_cnn_with_BatchNormalizationAndDropout_2.h5")
 
-path = "./images/image_8.png" 
+path = "./testing_images/image_8.png" 
 image = Image.open(path).convert("L") 
 
  
